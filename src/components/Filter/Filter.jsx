@@ -2,7 +2,7 @@ import { Input } from "./Filter.styled";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 import { getFilter } from "../../redux/selectors";
-import { setFilter } from "../../redux/actions";
+import { setFilter } from "../../redux/filterSlice";
 
 export default function Filter() {
     const dispatch = useDispatch();

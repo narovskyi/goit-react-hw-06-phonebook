@@ -1,7 +1,7 @@
 import { Formik, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { Input, ErrorNotification, Button } from 'components/UserAddForm/UserAddForm.styled';
-import { addContact } from "../../redux/actions";
+import { addContact } from '../../redux/contactsSplice';
 import { useDispatch } from 'react-redux';
 
 const initialValues = {
